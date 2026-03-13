@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Bella Aura Studio | Estúdio de Beleza</title>
+  <meta name="description" content="Bella Aura Studio - Design de sobrancelha, extensão de cílios, limpeza de pele e manicure. Agende seu horário pelo WhatsApp.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">Bella Aura Studio</h1>
+
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+      <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#agendamento">Agendamento</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content reveal">
+      <p class="hero-mini">Beleza • Delicadeza • Autoestima</p>
+      <h2>Seu momento de cuidado no <span>Bella Aura Studio</span></h2>
+      <p class="hero-text">
+        Um espaço pensado para valorizar sua beleza com leveza, carinho e um toque especial de sofisticação.
+      </p>
+
+      <div class="hero-buttons">
+        <a
+          href="https://wa.me/5561994358531?text=Olá%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20Bella%20Aura%20Studio."
+          target="_blank"
+          class="btn primary"
+        >
+          Agendar horário
+        </a>
+
+        <a href="#servicos" class="btn secondary">Conhecer serviços</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="about section">
+    <div class="container about-grid">
+      <div class="about-text reveal">
+        <p class="section-tag">Sobre nós</p>
+        <h3>Beleza com delicadeza em cada detalhe</h3>
+        <p>
+          No Bella Aura Studio, cada atendimento é feito com atenção, cuidado e carinho para que você se sinta ainda mais linda e confiante.
+        </p>
+        <p>
+          Nosso objetivo é oferecer uma experiência acolhedora, feminina e especial, unindo beleza, bem-estar e autoestima em um só lugar.
+        </p>
+      </div>
+
+      <div class="about-box reveal">
+        <div class="feature-card">
+          <span>🌷 Atendimento personalizado</span>
+        </div>
+        <div class="feature-card">
+          <span>✨ Ambiente delicado e acolhedor</span>
+        </div>
+        <div class="feature-card">
+          <span>💬 Agendamento fácil pelo WhatsApp</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="services section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Serviços</p>
+        <h3>Nossos cuidados para você</h3>
+        <p>
+          Serviços pensados para realçar sua beleza de forma leve, elegante e especial.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-icon">🌸</div>
+          <h4>Design de sobrancelha</h4>
+          <p>Modelagem cuidadosa para valorizar a harmonia do seu rosto.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">👁️</div>
+          <h4>Extensão de cílios</h4>
+          <p>Mais destaque e charme para o seu olhar com delicadeza e elegância.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">🫧</div>
+          <h4>Limpeza de pele</h4>
+          <p>Renove sua pele com um cuidado especial para mais leveza e bem-estar.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">💅</div>
+          <h4>Manicure</h4>
+          <p>Unhas lindas e bem cuidadas para completar o seu momento de beleza.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="agendamento" class="booking section">
+    <div class="container booking-grid">
+      <div class="booking-text reveal">
+        <p class="section-tag">Agendamento</p>
+        <h3>Reserve seu horário</h3>
+        <p>
+          Fale conosco pelo WhatsApp ou envie uma solicitação rápida pelo formulário abaixo.
+        </p>
+
+        <a
+          href="https://wa.me/5561994358531?text=Olá%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20Bella%20Aura%20Studio."
+          target="_blank"
+          class="btn primary"
+        >
+          Agendar no WhatsApp
+        </a>
+      </div>
+
+      <form class="booking-form reveal">
+        <h4>Pré-agendamento</h4>
+
+        <input type="text" placeholder="Seu nome" required>
+        <input type="tel" placeholder="Seu telefone" required>
+
+        <select required>
+          <option value="">Escolha um serviço</option>
+          <option>Design de sobrancelha</option>
+          <option>Extensão de cílios</option>
+          <option>Limpeza de pele</option>
+          <option>Manicure</option>
+        </select>
+
+        <input type="date" required>
+        <input type="time" required>
+
+        <button type="submit" class="btn primary">Enviar solicitação</button>
+        <p class="form-note">Após enviar, o WhatsApp será aberto automaticamente.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="contato" class="contact section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Contato</p>
+        <h3>Fale com o Bella Aura Studio</h3>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <h4>WhatsApp</h4>
+          <p>(61) 99435-8531</p>
+          <a
+            href="https://wa.me/5561994358531?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20o%20Bella%20Aura%20Studio."
+            target="_blank"
+            class="contact-link"
+          >
+            Entrar em contato
+          </a>
+        </div>
+
+        <div class="contact-card reveal">
+          <h4>Instagram</h4>
+          <p>@bellaaurastudio</p>
+          <a href="#" class="contact-link">Adicionar link do Instagram</a>
+        </div>
+
+        <div class="contact-card reveal">
+          <h4>Atendimento</h4>
+          <p>Segunda a sábado</p>
+          <p>Consulte os horários disponíveis pelo WhatsApp</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Bella Aura Studio. Todos os direitos reservados.</p>
+      <p>Desenvolvido por Junio Dias Gianelli</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
