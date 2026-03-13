@@ -1,50 +1,51 @@
 # Bella Aura Studio – Website
 
-Este projeto é um site desenvolvido para um estúdio de beleza chamado **Bella Aura Studio**.
-O objetivo do site é apresentar os serviços oferecidos e facilitar o agendamento de horários através do WhatsApp.
+Este projeto é um site desenvolvido para o **Bella Aura Studio**, um estúdio de beleza especializado em cuidados estéticos como design de sobrancelha, extensão de cílios, limpeza de pele e manicure.
 
-## 💄 Sobre o projeto
-
-O site foi pensado para ter um visual **delicado, feminino e moderno**, utilizando tons de rosa e um layout elegante para transmitir a identidade de um estúdio de beleza.
-
-Ele possui uma estrutura simples, rápida e responsiva para funcionar bem tanto no computador quanto no celular.
-
-## ✨ Funcionalidades
-
-* Página inicial com apresentação do estúdio
-* Seção sobre o studio
-* Apresentação dos serviços
-* Formulário de pré-agendamento
-* Botão de agendamento direto no WhatsApp
-* Área de contato
-* Layout responsivo para dispositivos móveis
-
-## 🛠️ Tecnologias utilizadas
-
-* HTML
-* CSS
-* JavaScript
-
-## 📱 Integração
-
-O site possui integração direta com o WhatsApp para facilitar o contato e o agendamento de serviços.
-
-## 🚀 Objetivo
-
-Este projeto foi desenvolvido como prática de desenvolvimento web e também como exemplo de site para pequenos negócios como:
-
-* estúdios de beleza
-* barbearias
-* clínicas estéticas
-* profissionais autônomos
-
-## 👨‍💻 Autor
-
-Desenvolvido por **Junio Dias Gianelli**
-
-GitHub:
-https://github.com/juslli
+O objetivo do site é apresentar os serviços do estúdio de forma elegante e facilitar o **agendamento de clientes através do WhatsApp**.
 
 ---
 
-Projeto criado com o objetivo de aprender e evoluir na área de desenvolvimento web.
+## 🌐 Site Online
+
+Acesse o site publicado:
+
+https://juslli.github.io/bella-aura-studio
+
+---
+
+## 📸 Preview do Projeto
+
+![Preview do site](images/preview.png)
+
+---
+
+## ✨ Funcionalidades
+
+O site possui:
+
+* Página inicial com apresentação do estúdio
+* Seção sobre o studio
+* Apresentação dos serviços oferecidos
+* Galeria de imagens
+* Depoimentos de clientes
+* Formulário de pré-agendamento
+* Botão de contato direto no WhatsApp
+* Área de contato
+* Layout responsivo para celular e computador
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+Este projeto foi desenvolvido utilizando:
+
+* **HTML**
+* **CSS**
+* **JavaScript**
+
+---
+
+## 📱 Integração com WhatsApp
+
+O site possui integração direta com o WhatsApp para facilitar o agendamento de horários e o c
